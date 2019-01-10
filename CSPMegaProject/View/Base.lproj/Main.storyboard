@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eRb-Sb-l3h">
-                                <rect key="frame" x="155" y="108" width="66" height="30"/>
+                                <rect key="frame" x="154" y="73" width="66" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Creativity"/>
                                 <connections>
@@ -26,27 +26,35 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6P6-fF-YFD">
-                                <rect key="frame" x="171" y="343" width="32" height="30"/>
+                                <rect key="frame" x="171" y="240" width="32" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Data"/>
                                 <connections>
                                     <segue destination="QwQ-Sa-vg8" kind="show" id="WBY-ha-zam"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X1Q-ys-KAI">
-                                <rect key="frame" x="147" y="459" width="80" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Abstraction"/>
-                                <connections>
-                                    <segue destination="ch7-2W-7N1" kind="show" id="mk0-XV-jd4"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9MM-oj-1Ac">
-                                <rect key="frame" x="150" y="212" width="75" height="30"/>
+                                <rect key="frame" x="150" y="149" width="75" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Algorithms"/>
                                 <connections>
                                     <segue destination="ShN-rI-D9a" kind="show" id="4Qb-qz-gb6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OlR-UB-XQY">
+                                <rect key="frame" x="163" y="422" width="48" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Impact"/>
+                                <connections>
+                                    <segue destination="uWn-OR-EnP" kind="show" id="Kgv-5K-Y6J"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X1Q-ys-KAI">
+                                <rect key="frame" x="147" y="318" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Abstraction"/>
+                                <connections>
+                                    <segue destination="ch7-2W-7N1" kind="show" id="mk0-XV-jd4"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -60,7 +68,7 @@
         <!--Creativity View Controller-->
         <scene sceneID="45b-wH-Ie1">
             <objects>
-                <viewController id="3BX-ta-GOZ" customClass="CreativityViewController" customModule="Creativity_HunterKnott" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="3BX-ta-GOZ" customClass="CreativityViewController" customModule="CSPMegaProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2tr-Yu-5pJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -73,7 +81,7 @@
                                     <segue destination="Chz-kS-b3N" kind="show" id="pKB-T6-ihn"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uli-yB-0t9" customClass="CreativityView" customModule="Creativity_HunterKnott" customModuleProvider="target">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uli-yB-0t9" customClass="CreativityView" customModule="CSPMegaProject" customModuleProvider="target">
                                 <rect key="frame" x="67" y="44" width="240" height="439"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.76623218910000002" green="0.35873664719999998" blue="0.30334497519999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -95,7 +103,7 @@
         <!--Creativity Collection View Controller-->
         <scene sceneID="dSQ-5R-t3p">
             <objects>
-                <collectionViewController id="Chz-kS-b3N" customClass="CreativityCollectionViewController" customModule="Creativity_HunterKnott" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController id="Chz-kS-b3N" customClass="CreativityCollectionViewController" customModule="CSPMegaProject" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="5NK-gH-93L">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -107,7 +115,7 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="artidentifier" id="nhO-M7-baK" customClass="ArtCell" customModule="Creativity_HunterKnott" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="artidentifier" id="nhO-M7-baK" customClass="ArtCell" customModule="CSPMegaProject" customModuleProvider="target">
                                 <rect key="frame" x="87.5" y="0.0" width="200" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -148,7 +156,7 @@
         <!--AlgorithmController-->
         <scene sceneID="hxK-MZ-RX4">
             <objects>
-                <viewController id="ShN-rI-D9a" userLabel="AlgorithmController" customClass="AlgorithmController" customModule="Algorithm_HunterKnott" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ShN-rI-D9a" userLabel="AlgorithmController" customClass="AlgorithmController" customModule="CSPMegaProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6Xr-t4-H8n">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -202,7 +210,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="dataIdentifier" rowHeight="55" id="gyY-O8-Yoa" customClass="BucketItemCell" customModule="DataProject" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="dataIdentifier" rowHeight="55" id="gyY-O8-Yoa" customClass="BucketItemCell" customModule="CSPMegaProject" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="55"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gyY-O8-Yoa" id="QSo-Qj-MWP">
@@ -257,7 +265,7 @@
         <!--Abstraction View Controller-->
         <scene sceneID="Awy-kR-pdd">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="ch7-2W-7N1" customClass="AbstractionViewController" customModule="AbstractionProject" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="ch7-2W-7N1" customClass="AbstractionViewController" customModule="CSPMegaProject" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0rz-z5-fOO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1951" y="134"/>
@@ -457,8 +465,54 @@
             </objects>
             <point key="canvasLocation" x="5910" y="134"/>
         </scene>
+        <!--Impact View Controller-->
+        <scene sceneID="8Mc-e9-dJ3">
+            <objects>
+                <viewController id="uWn-OR-EnP" customClass="ImpactViewController" customModule="GlobalImpactProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1av-vh-bnd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="rfv-Xs-bVk">
+                                <rect key="frame" x="0.0" y="45" width="375" height="263"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aWi-B2-6xz">
+                                <rect key="frame" x="36" y="334" width="304" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Animate to impact area"/>
+                                <connections>
+                                    <action selector="sender:" destination="uWn-OR-EnP" eventType="touchUpInside" id="Qv4-r9-wpO"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AppInventorImmigrantSurveyFramework" translatesAutoresizingMaskIntoConstraints="NO" id="oLn-1k-vIL">
+                                <rect key="frame" x="74" y="378" width="228" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This allows immigrants to anonymously answer a survey that will help policymakers to better understand immigrants’ issues. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rg1-Tq-dnz">
+                                <rect key="frame" x="36" y="539" width="304" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="rhg-M6-Sj6"/>
+                    </view>
+                    <connections>
+                        <outlet property="MapView" destination="rfv-Xs-bVk" id="uye-8o-KuD"/>
+                        <outlet property="ViewButton" destination="aWi-B2-6xz" id="lgz-DE-7Aa"/>
+                        <outlet property="ViewImaage" destination="oLn-1k-vIL" id="a11-MO-6zM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gKy-wU-FHw" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2970" y="1157"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="AppInventorImmigrantSurveyFramework" width="16" height="16"/>
         <image name="Binary" width="16" height="16"/>
         <image name="Block" width="16" height="16"/>
         <image name="LogicalGate" width="16" height="16"/>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86804BB121E7E228009284F5 /* ImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86804BB021E7E228009284F5 /* ImpactViewController.swift */; };
 		86E9FF2421DFFC18002D14FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E9FF2321DFFC18002D14FD /* AppDelegate.swift */; };
 		86E9FF2921DFFC18002D14FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86E9FF2721DFFC18002D14FD /* Main.storyboard */; };
 		86E9FF2B21DFFC19002D14FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86E9FF2A21DFFC19002D14FD /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		86804BB021E7E228009284F5 /* ImpactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImpactViewController.swift; path = ../../../../GlobalImpactProject/GlobalImpactProject/Controller/ImpactViewController.swift; sourceTree = "<group>"; };
 		86E9FF2021DFFC18002D14FD /* CSPMegaProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSPMegaProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86E9FF2321DFFC18002D14FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86E9FF2821DFFC18002D14FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86804BAF21E7E214009284F5 /* Impact */ = {
+			isa = PBXGroup;
+			children = (
+				86804BB021E7E228009284F5 /* ImpactViewController.swift */,
+			);
+			path = Impact;
+			sourceTree = "<group>";
+		};
 		86E9FF1721DFFC18002D14FD = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +111,7 @@
 		86E9FF3721DFFC4A002D14FD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				86804BAF21E7E214009284F5 /* Impact */,
 				86E9FF3E21DFFD1B002D14FD /* Creativity */,
 				86E9FF3D21DFFD13002D14FD /* Data */,
 				86E9FF3C21DFFD09002D14FD /* Algorithm */,
@@ -232,6 +243,7 @@
 				86E9FF4B21DFFDD1002D14FD /* BucketItemCell.swift in Sources */,
 				86E9FF4A21DFFDD1002D14FD /* ViewController.swift in Sources */,
 				86E9FF4221DFFD7A002D14FD /* CreativityView.swift in Sources */,
+				86804BB121E7E228009284F5 /* ImpactViewController.swift in Sources */,
 				86E9FF4121DFFD7A002D14FD /* ArtCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,7 +383,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CSPMegaProject/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CSPMegaProject/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -388,7 +400,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CSPMegaProject/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CSPMegaProject/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
